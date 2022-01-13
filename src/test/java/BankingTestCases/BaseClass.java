@@ -20,7 +20,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() {  //this is set up for chrome driver as a driver; we can change this driver as needed to different one
 	//	System.setProperty("webdriver.chrome.driver" ,"C:\\Users\\Nishchal\\eclipse-workspace\\BankingProject\\Driver"); 
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C://chromedriver.exe");
 		driver=new ChromeDriver();
 		
 	}
